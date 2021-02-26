@@ -20,7 +20,7 @@ public class DemoApplication {
 	}
 
 
-	@Bean
+	//@Bean
 	CommandLineRunner runner(LinkRepository linkRepository, CommentRepository commentRepository ) {
 		return args -> {
 			Link link = new Link("Getting started spring boot2", "www.example.com");
